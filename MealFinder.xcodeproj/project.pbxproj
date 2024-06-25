@@ -14,6 +14,7 @@
 		498FF2472C2B3EB70080CD50 /* MealFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF2462C2B3EB70080CD50 /* MealFinderTests.swift */; };
 		498FF2512C2B3EB70080CD50 /* MealFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF2502C2B3EB70080CD50 /* MealFinderUITests.swift */; };
 		498FF2532C2B3EB70080CD50 /* MealFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF2522C2B3EB70080CD50 /* MealFinderUITestsLaunchTests.swift */; };
+		498FF2602C2B8E8D0080CD50 /* DessertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF25F2C2B8E8D0080CD50 /* DessertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		498FF24C2C2B3EB70080CD50 /* MealFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498FF2502C2B3EB70080CD50 /* MealFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFinderUITests.swift; sourceTree = "<group>"; };
 		498FF2522C2B3EB70080CD50 /* MealFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		498FF25F2C2B8E8D0080CD50 /* DessertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				498FF2372C2B3EB50080CD50 /* ContentView.swift */,
 				498FF2392C2B3EB70080CD50 /* Assets.xcassets */,
 				498FF23B2C2B3EB70080CD50 /* Preview Content */,
+				498FF25F2C2B8E8D0080CD50 /* DessertView.swift */,
 			);
 			path = MealFinder;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				498FF2382C2B3EB50080CD50 /* ContentView.swift in Sources */,
 				498FF2362C2B3EB50080CD50 /* MealFinderApp.swift in Sources */,
+				498FF2602C2B8E8D0080CD50 /* DessertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
