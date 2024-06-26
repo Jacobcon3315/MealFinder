@@ -16,6 +16,9 @@ struct DessertView: View {
                 Text("Instructions Here")
             }
         }
-        .padding()
     }
+}
+
+#Preview {
+    DessertView()
 }

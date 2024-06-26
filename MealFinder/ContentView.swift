@@ -21,12 +21,16 @@ private var desserts = [
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            List(desserts){
-                Text($0.name)
+        NavigationStack {
+            List {
+                ForEach(desserts) { Dessert in
+                    NavigationLink(destination: DessertView()) {
+                        Text(Dessert.name)
+                    }
+                }
             }
+            .navigationTitle("All Desserts")
         }
-        .padding()
     }
 }
 
